@@ -1,0 +1,22 @@
+.oberflaeche {
+      margin: 40px;
+}
+.oberflaeche ul:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0px;
+    height: 100%;
+    border: 2px dashed black;
+}
+.oberflaeche ul {
+    position: relative;
+    list-style: none;
+    padding: 0;
+}
+
+.oberflaeche li {
+    margin: 30px 60px;
+}
+   
